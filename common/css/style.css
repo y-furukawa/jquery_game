@@ -1,0 +1,99 @@
+.inner {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.inner p{
+    text-align: center;
+}
+ul li  {
+    width: 180px;
+    height: 150px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+ul li a{
+    widows: 180px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url(../img/mogura.jpg),url(../img/hole_ana.png);
+    background-position: 0 150px,0 0;
+    display: block;
+  text-indent: -9999px;
+  transition: 0.5s;
+}
+
+
+
+.nise{
+    background-image: url(../img/nise.jpg),url(../img/hole_ana.png);
+        background-position: 0 0,0 0;
+}
+
+.mogura_mid{
+    background-image: url(../img/mogura1.jpg);
+}
+
+.mogura{
+    /* background-image: url(../img/mogura2.jpg); */
+    background-position: 0 0,0 0;
+}
+
+ul {
+    overflow: hidden;
+}
+
+#goal {
+    text-align: center;
+}
+
+
+.butu{
+    background-image: url(../img/fukidashi_186.png);
+}
+
+#button_wrap{
+    text-align: center;
+}
+
+#score{
+    text-align: center;
+}
+
+.result{
+    background-image: url(../img/omedetou.jpg);
+}
+
+.inner ul li a{
+    cursor: url(../img/pikopiko.cur),auto;
+}
+.inner ul{
+    cursor: url(../img/pikopiko.cur),auto;
+
+}
+
+#mogura_wrap p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #668ad8;/*ボタン色*/
+        color: #FFF;
+        border-bottom: solid 4px #627295;
+        border-radius: 3px;
+}
+
+button:active {
+        /*ボタンを押したとき*/
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);/*下に動く*/
+        border-bottom: none;/*線を消す*/
+      }
